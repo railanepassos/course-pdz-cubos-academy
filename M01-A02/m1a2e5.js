@@ -12,6 +12,7 @@ console.log("A subtração de " + x + " e" + " é igual a " + resultado);
 resultado = x * y;
 console.log("A multiplicação de " + x + " e" + " é igual a " + resultado);
 
+// Usando o stringtemplate
 resultado = x / y;
 console.log(`A divisão de ${x} e ${y} é igual a ${resultado}`);
 
