@@ -1,0 +1,15 @@
+{
+  "name": "0531-programacao_assincrona",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01-sincrono_assincrono.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.21.1"
+  }
+}
