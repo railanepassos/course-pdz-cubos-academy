@@ -1,5 +1,5 @@
 /**
- * Exemplo de Promise com Axius
+ * Exemplo de Promise com Axios
  * https://axios-http.com/docs/intro
  * 
  */

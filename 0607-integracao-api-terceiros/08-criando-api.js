@@ -5,7 +5,7 @@
  * Criar arquivo index.js
  * Instalar Express
  *      npm install express
- * Instalar Axius
+ * Instalar Axios
  *      npm install axios
  * Criar servidor 
  *  const express = require('express');

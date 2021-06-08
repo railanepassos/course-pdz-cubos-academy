@@ -1,10 +1,10 @@
 /**
- * Configurar axius para conexáo com API external
+ * Configurar axios para conexáo com API external
  * 
  *  Criar pasta <servicos> e dentro dela o arquivo pagarme.js
- *  Importar axius
- *      const axius = require('axius');
+ *  Importar axios
+ *      const axios = require('axios');
  * 
- *  Cirando instancia do axius com configira;óes personalizadas(parametros iguais para as requisicoes)
- *      const instanceiaAxius = axius.create({}); 
+ *  Cirando instancia do axios com configira;óes personalizadas(parametros iguais para as requisicoes)
+ *      const instanceiaAxios = axios.create({}); 
  */

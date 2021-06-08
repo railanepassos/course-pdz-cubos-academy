@@ -1,6 +1,6 @@
-const axius = require('axios');
+const axios = require('axios');
 
-const instanceAxius = axius.create({
+const instanceAxios = axios.create({
     baseUrl: 'https://api.pagar.me/1/',
     params: {
         api_key: 'ak_test_grXijQ4GicOa2BLGZrDRTR5qNQxJW0'
@@ -8,4 +8,4 @@ const instanceAxius = axius.create({
 
 });
 
-module.exports = instanceAxius;
+module.exports = instanceAxios;

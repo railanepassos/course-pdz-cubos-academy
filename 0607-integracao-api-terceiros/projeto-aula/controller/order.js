@@ -1,7 +1,7 @@
-const instanceAxius = require('../../projeto-aula/services/pagarme');
+const instanceAxios = require('../../projeto-aula/services/pagarme');
 
 const criarPedido = async (req, res) => {
-    // instanceAxius.get('transactions');
+    // instanceAxios.get('transactions');
     const { body } = req;
 
     try {
@@ -13,7 +13,7 @@ const criarPedido = async (req, res) => {
 
         }
         
-        const pedido = await instanceAxius.post('transactions', body);
+        const pedido = await instanceAxios.post('transactions', body);
 
         return res.json(pedido.data);
     } catch (error) {
